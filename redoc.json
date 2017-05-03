@@ -200,6 +200,12 @@
     "repo": "reaction-docs",
     "docPath": "developer/tutorial/creating-a-payment-provider-plugin.md"
   }, {
+    "class": "guide-sub-nav-item",
+    "alias": "getting-started-with-reaction-marketplace",
+    "label": "Marketplace - Getting Started",
+    "repo": "reaction-docs",
+    "docPath": "developer/tutorial/running-a-marketplace.md"
+  }, {
     "class": "guide-nav-item",
     "alias": "architecture",
     "label": "Architecture",
