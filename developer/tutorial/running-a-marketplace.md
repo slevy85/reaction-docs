@@ -1,6 +1,8 @@
 # Marketplace
 
-View our marketplace feature roadmap and progress on our [waffle](https://waffle.io/reactioncommerce/reaction?label=marketplace)
+View our marketplace feature roadmap and progress on our [github marketplace project](https://github.com/reactioncommerce/reaction/projects/9)
+
+Participate in discussion and ask marketplace specific questions on our [marketplace gitter channel](https://gitter.im/reactioncommerce/marketplace)
 
 ## How to test drive the marketplace feature branch
 
