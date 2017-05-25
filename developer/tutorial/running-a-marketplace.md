@@ -1,5 +1,7 @@
 # Marketplace
 
+*Note: this particular doc is a WIP for our upcoming Marketplace release. Most of the information here is relevant to any branch of Reaction Commerce, but some of it is particular to the `marketplace` branch. As it's constantly evolving, it may contain errors, inaccuracies, or content that is not fully baked yet*
+
 View our marketplace feature roadmap and progress on our [github marketplace project](https://github.com/reactioncommerce/reaction/projects/9)
 
 Participate in discussion and ask marketplace specific questions on our [marketplace gitter channel](https://gitter.im/reactioncommerce/marketplace)
@@ -10,24 +12,18 @@ Participate in discussion and ask marketplace specific questions on our [marketp
  - [Get your system ready for Reaction](https://docs.reactioncommerce.com/reaction-docs/master/requirements)
  - [Install the reaction-cli tool](https://docs.reactioncommerce.com/reaction-docs/master/installation)
 
-### 1. Checkout or clone the marketplace branch from github
-If you already have a development directory for Reaction Commerce setup, you can just checkout the `marketplace` branch. Make sure you `fetch` and `pull` to get the latest updates.
+### 1. Initialize a project using the marketplace branch
 
 ```sh
-$ git checkout marketplace
-$ git fetch
-$ git pull
+$ reaction init -b marketplace
 ```
 
-if you want to clone the `marketplace` branch have your public key setup in github
+This runs the standard `reaction init` command and specifies the branch of marketplace. (`-b` as a shortcut for `--branch`). This will also install the marketplace branch into the standard reaction directory.
 
-```
-$ git clone -b marketplace git@github.com:reactioncommerce/reaction.git
-```
+If you'd like to install the marketplace branch into a separate directory, just specify the directory name after this command, e.g.
 
-If you don't have your public key uploaded to github, you can use https instead
-```
-$ git clone -b marketplace https://git@github.com/reactioncommerce/reaction.git
+```sh
+$ reaction init -b marketplace directory-name
 ```
 
 ### 2. Setup default admin account info in settings.json
